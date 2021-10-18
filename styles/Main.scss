@@ -1,0 +1,19 @@
+
+$bg: red;
+
+body  {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+#hero {
+  background: url("../pages/img/heroImg.png") no-repeat center/cover;
+  min-height: 100vh;
+}
+.hero-block {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(30px);
+  width: 700px;
+  height: 900px;
+  padding: 20px 80px;
+}
+
