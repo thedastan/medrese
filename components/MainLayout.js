@@ -4,6 +4,9 @@ import Logo from "../pages/img/logo.svg";
 import ProfileIcon from "../pages/img/profile-circle.svg";
 import Homeicon from "../pages/img/home.svg";
 import NewsIcon from "../pages/img/book.svg";
+import AudioIcon from "../pages/img/quranbook.svg";
+import VideoIcon from "../pages/img/video-circle.svg";
+import DocsIcon from "../pages/img/folder-2.svg";
 
 
 export default function MainLayout({children}) {
@@ -30,6 +33,25 @@ export default function MainLayout({children}) {
                         <div className="mb-5 mt-5 ">
                             <Image src={NewsIcon} alt="News" width={'41,67px'} height={"41,61px"} className="cursor-pointer" />
                             <h3>Макалалар</h3>
+                        </div>
+                    </Link>
+                    <Link href={"/audios"}>
+                        <div className="mb-5 mt-5 ">
+                            <Image src={AudioIcon} alt="News" width={'41,67px'} height={"41,61px"} className="cursor-pointer" />
+                            <h3>Куран
+                                mp3  mp4</h3>
+                        </div>
+                    </Link>
+                    <Link href={"/videos"}>
+                        <div className="mb-5 mt-5 ">
+                            <Image src={VideoIcon} alt="Videos" width={'41,67px'} height={"41,61px"} className="cursor-pointer" />
+                            <h3>Видео</h3>
+                        </div>
+                    </Link>
+                    <Link href={"/videos"}>
+                        <div className="mb-5 mt-5 ">
+                            <Image src={DocsIcon} alt="Videos" width={'41,67px'} height={"41,61px"} className="cursor-pointer" />
+                            <h3>Документтер</h3>
                         </div>
                     </Link>
                 </div>
